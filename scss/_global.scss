@@ -3,6 +3,7 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
+    background-image: linear-gradient(rgb(224, 229, 231) , rgb(185, 185, 192));
 } 
 
 .headerFooter {
@@ -14,12 +15,4 @@ body {
     }
 }
 
-@mixin waLogo($marginL) {
-    margin-left: $marginL;
-}
 
-$backGroundimageBody: (body:linear-gradient(black, rgb(0,0,32)));
-$body: map-get($backGroundimageBody, body);
-body {
-    background-image: $body;
-}

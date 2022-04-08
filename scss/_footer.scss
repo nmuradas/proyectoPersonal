@@ -1,10 +1,30 @@
 footer {
-        .logoheaderfooter img {
+
+    display: flex;
+    background-color: #f8f9fa;
+    justify-content: space-between;
+    padding: 3px;
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: normal;
+    }
+
+    div {
+        margin-right: 12px;
+    }
+
+        .logoheaderfooter {
+            margin-left: 12px;
+        
+        img {
             @extend .headerFooter
-    }  
+    }   }
+
 
     .whatsappmargin {
-        @include waLogo(7px)
+        margin-left: 7px;
     }
     
 }
@@ -22,7 +42,7 @@ footer {
     }
 
     .whatsappmargin {
-        @include waLogo(9px)
+        margin-left: 9px;
     }
 }
 

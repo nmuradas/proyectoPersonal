@@ -1,5 +1,36 @@
 header {
+
+
     .logoheaderfooter img {
         @extend .headerFooter
-}  
+}   
+
+.input__search {
+    border-radius: 4px;
+    border: 1px solid #dcdcdd;
+    padding: 6px 16px;
+    font-size: 14px;
+    outline: none;
+}
+
+.input__search:hover {
+    border: 1px solid #fff;
+    box-shadow: 0 1px 3px 3px #e7e7e7;
+
+}
+
+.input__search--button {
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 6px 16px;
+    color: #212124e5;
+    background-color: #f8f9fa;
+    margin: 0 6px;
+    border: 1px solid #dadce0;
+}
+.input__search--button:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 1px 1px 4px #e8e8e8;
+}
+
 } 

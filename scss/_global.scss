@@ -1,4 +1,4 @@
-/* body {
+body {
     color: white;
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -23,4 +23,3 @@ $body: map-get($backGroundimageBody, body);
 body {
     background-image: $body;
 }
- */

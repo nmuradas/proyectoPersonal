@@ -1,0 +1,25 @@
+body {
+    color: white;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+} 
+
+.headerFooter {
+        cursor: pointer;
+        transition: transform 0.5s;
+    
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+@mixin waLogo($marginL) {
+    margin-left: $marginL;
+}
+
+$backGroundimageBody: (body:linear-gradient(black, rgb(0,0,32)));
+$body: map-get($backGroundimageBody, body);
+body {
+    background-image: $body;
+}

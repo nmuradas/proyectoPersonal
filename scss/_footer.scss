@@ -1,0 +1,28 @@
+footer {
+        .logoheaderfooter img {
+            @extend .headerFooter
+    }  
+
+    .whatsappmargin {
+        @include waLogo(7px)
+    }
+    
+}
+
+@media (max-width: 992px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;  
+
+    .rrss {
+        display: flex;
+        justify-content: center;
+    }
+
+    .whatsappmargin {
+        @include waLogo(9px)
+    }
+}
+}
